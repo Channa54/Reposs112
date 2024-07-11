@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-09T15:47:15 IST" name="Suite" finished-at="2024-07-09T15:47:35 IST" duration-ms="20074">
+    <groups>
+    </groups>
+    <test started-at="2024-07-09T15:47:15 IST" name="Test" finished-at="2024-07-09T15:47:35 IST" duration-ms="20074">
+      <class name="tests.Logintest">
+        <test-method is-config="true" signature="openbrowserr()[pri:0, instance:tests.Logintest@7a35b0f5]" started-at="2024-07-09T15:47:15 IST" name="openbrowserr" finished-at="2024-07-09T15:47:28 IST" duration-ms="13379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowserr -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Logintest@7a35b0f5]" started-at="2024-07-09T15:47:28 IST" name="login" data-provider="getlogindata" finished-at="2024-07-09T15:47:30 IST" duration-ms="1567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcx1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Channu@322]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[succsessful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.Logintest@7a35b0f5]" started-at="2024-07-09T15:47:30 IST" name="closure" finished-at="2024-07-09T15:47:30 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openbrowserr()[pri:0, instance:tests.Logintest@7a35b0f5]" started-at="2024-07-09T15:47:30 IST" name="openbrowserr" finished-at="2024-07-09T15:47:33 IST" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowserr -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Logintest@7a35b0f5]" started-at="2024-07-09T15:47:33 IST" name="login" data-provider="getlogindata" finished-at="2024-07-09T15:47:35 IST" duration-ms="1392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sachin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[akash@345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.Logintest@7a35b0f5]" started-at="2024-07-09T15:47:35 IST" name="closure" finished-at="2024-07-09T15:47:35 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.Logintest -->
+      <class name="tests.twoTest">
+        <test-method signature="twotest()[pri:0, instance:tests.twoTest@17f9d882]" started-at="2024-07-09T15:47:15 IST" name="twotest" finished-at="2024-07-09T15:47:15 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twotest -->
+      </class> <!-- tests.twoTest -->
+      <class name="tests.oneTest">
+        <test-method signature="testone()[pri:0, instance:tests.oneTest@606e4010]" started-at="2024-07-09T15:47:15 IST" name="testone" finished-at="2024-07-09T15:47:15 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testone -->
+      </class> <!-- tests.oneTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
